@@ -1,0 +1,58 @@
+.wrapper {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    background-color: crimson;
+    height: 60px;
+    width: 70%;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.one:nth-child(2) {
+    background-color: blueviolet;
+}
+
+.one:nth-child(3) {
+    background-color: blue;
+}
+
+.one:nth-child(4) {
+    background-color: rgb(44, 118, 222);
+}
+
+.one:nth-child(5) {
+    background-color: rgb(4, 107, 251);
+}
+
+.one:nth-child(6) {
+    background-color: rgb(92, 187, 77);
+}
+
+.one:nth-child(7) {
+    background-color: rgb(140, 245, 29);
+}
+
+.one:nth-child(8) {
+    background-color: rgb(189, 222, 44);
+}
+
+.one:nth-child(9) {
+    background-color: rgb(222, 181, 44);
+}
+
+.one:nth-child(10) {
+    background-color: rgb(222, 62, 44);
+}

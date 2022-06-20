@@ -1,0 +1,61 @@
+.big{
+background-color: palevioletred;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    color: white;
+}
+.second-big{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.box{
+    padding: 20px;
+    background-color: rgb(70, 157, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+
+}
+
+.second-big .box{
+    width: 50%;
+    height: 200px;
+    
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.img{
+    display: flex;
+}
+
+.inbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 120px;
+    background-color: grey;
+    margin: 5px;
+
+   
+}
+
+.header{
+    background-color:cadetblue ;
+}

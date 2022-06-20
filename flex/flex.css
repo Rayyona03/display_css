@@ -1,0 +1,26 @@
+.box{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    /* align-items: center;  wrap ishlaganda 
+    align items ishlamaydi shuning uchun align 
+    content ishlaydi*/
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 700px;
+    background-color: blue;
+}
+
+/* align-self, even, odd ni o'rganish kerak */

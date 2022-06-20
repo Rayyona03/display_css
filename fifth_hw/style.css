@@ -1,0 +1,43 @@
+.wrapper {
+    background-color: rgb(83, 79, 79);
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    background-color: crimson;
+    height: 60px;
+    width: 60%;
+    font-size:larger;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.a:nth-child(2){
+background-color:purple ;
+}
+
+.a:nth-child(3){
+background-color:blue ;
+    
+}
+.a:nth-child(4){
+background-color: green;
+    
+}
+.a:nth-child(5){
+background-color:rgb(90, 67, 37) ;
+    
+}
+.a:nth-child(6){
+background-color: black;
+    
+}

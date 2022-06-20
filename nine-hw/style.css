@@ -1,0 +1,43 @@
+.main{
+    background-color: skyblue;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section{
+    padding: 10px 0;
+    color: white;
+}
+
+.section .flex{
+    background-color: slateblue;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.item{
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.section:nth-child(2) .flex{
+    justify-content: flex-end;
+}
+.section:nth-child(3) .flex{
+    justify-content: center;
+}
+
+.section:nth-child(4) .flex{
+    justify-content: space-between;
+}
+
+.section:nth-child(5) .flex{
+    justify-content: space-around;
+}
+
+.section:nth-child(6) .flex{
+    justify-content: space-evenly;
+}
